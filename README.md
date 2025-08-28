@@ -1,5 +1,6 @@
 🚀 Project Explanation – *Serverless API with Authentication*
-![alt text](Downloads)
+
+![alt text](https://github.com/meghapawar177-droid/Serverless-Authentication-System-using-AWS-Cognito-Lambda-API-Gateway-Project/blob/73df5eac35d6058079943c6a3f3f0ab5aeaee17c/doc/images/cognito%20img.png)
 
 🔵. Project Name
 
