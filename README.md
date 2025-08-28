@@ -79,4 +79,3 @@ Let’s say you’re building a *Notes App*:
 
 
 
-👉 This is the *end-to-end explanation* of your project.
