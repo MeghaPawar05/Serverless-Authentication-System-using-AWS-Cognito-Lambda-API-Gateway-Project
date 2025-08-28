@@ -2,7 +2,7 @@
 
 🔵. Project Name
 
-👉 “Serverless API with Authentication using AWS Lambda, API Gateway, and Cognito”
+👉 Serverless API with Authentication using AWS Lambda, API Gateway, and Cognito
 
 ---
 
