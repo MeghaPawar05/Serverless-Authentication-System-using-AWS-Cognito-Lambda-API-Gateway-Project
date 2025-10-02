@@ -21,7 +21,7 @@
 1. Go to **AWS Management Console → Lambda → Create function**.
 2. Select **Author from scratch**.
 
-   * Function name: `MyApiFunction`.
+   * Function name: `Lambda`.
    * Runtime: Python/Node.js/Java (your choice).
 3. Add your code. Example (Python):
 
