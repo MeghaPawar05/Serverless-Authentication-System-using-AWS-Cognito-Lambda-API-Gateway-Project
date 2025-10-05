@@ -20,10 +20,7 @@ def lambda_handler(event, context):
 ```
 
 4. Deploy the function.
-<img width="1914" height="801" alt="Screenshot 2025-10-01 223914" src="https://github.com/user-attachments/assets/6888cb1a-8f12-4d6a-ae99-87387fcc7f85" />
-
-
-
+5. <img width="1893" height="793" alt="image" src="https://github.com/user-attachments/assets/b8a34593-7d24-4323-9683-7d1fe8c3b9cc" />
 
 
 ## **1. Create a Cognito User Pool**
