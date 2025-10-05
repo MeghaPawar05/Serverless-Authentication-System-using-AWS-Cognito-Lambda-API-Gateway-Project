@@ -76,6 +76,8 @@ def lambda_handler(event, context):
    * Click **Method Request**.
    * Under **Authorization**, select `CognitoAuthorizer`.
    * Deploy changes again.
+   * <img width="1912" height="845" alt="image" src="https://github.com/user-attachments/assets/1c33d264-845b-40f6-9ca0-fcecac4b2608" />
+
 
 
 ## **5. Test the Setup**
@@ -84,6 +86,8 @@ def lambda_handler(event, context):
 
 * Use AWS Cognito Hosted UI OR AWS CLI to sign in and get a **JWT token**.
   Example with AWS CLI:
+  <img width="1919" height="585" alt="Screenshot 2025-10-05 132033" src="https://github.com/user-attachments/assets/8848a1d6-cb6a-4bd3-8333-4653355ed002" />
+
 
 
 
