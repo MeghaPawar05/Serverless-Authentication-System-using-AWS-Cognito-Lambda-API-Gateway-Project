@@ -41,6 +41,8 @@
 * *Amazon API Gateway* → Acts as an API front door to securely expose Lambda.
 * *Amazon Cognito* → Provides user authentication & token-based access.
 * *CloudWatch Logs* (optional) → For monitoring Lambda execution.
+* <img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/73732eb8-c167-4972-a439-22d546f94aed" />
+
 
 
 ### *Benefits*
