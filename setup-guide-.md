@@ -1,27 +1,13 @@
 # 🔵 Setup Guide – Serverless API with Cognito Authentication
 
-## **1. Create a Cognito User Pool**
 
-1. Go to **AWS Management Console → Cognito → User Pools**.
-2. Click **Create User Pool**.
-3. Configure:
-
-   * Pool name (e.g., `MyUserPool`).
-   * Sign-in options → Choose `Email` or `Username`.
-   * Enable **Self sign-up** if required.
-   * Configure password policy (default is fine).
-4. Create a **User Pool Client** (e.g., `MyAppClient`):
-
-   
-5. Save the **User Pool ID** and **App Client ID** → you’ll need them later.
-
-
-## **2. Create a Lambda Function**
+## **1. Create a Lambda Function**
 
 1. Go to **AWS Management Console → Lambda → Create function**.
 2. Select **Author from scratch**.
 
-   * Function name: `Lambda`.
+   * Function name: `Lambda-Function'
+`.
    * Runtime: Python/Node.js/Java (your choice).
 3. Add your code. Example (Python):
 
@@ -34,6 +20,28 @@ def lambda_handler(event, context):
 ```
 
 4. Deploy the function.
+<img width="1914" height="801" alt="Screenshot 2025-10-01 223914" src="https://github.com/user-attachments/assets/6888cb1a-8f12-4d6a-ae99-87387fcc7f85" />
+
+
+
+
+
+## **1. Create a Cognito User Pool**
+
+1. Go to **AWS Management Console → Cognito → User Pools**.
+2. Click **Create User Pool**.
+3. Configure:
+
+   * Pool name (e.g., `User pool - d4mfdn`).
+   * Sign-in options → Choose `Email` or `Username`.
+   * Enable **Self sign-up** if required.
+   * Configure password policy (default is fine).
+4. Create a **User Pool Client** (e.g., `MyAppClient`):
+
+   
+5. Save the **User Pool ID** and **App Client ID** → you’ll need them later.
+6. <img width="1913" height="843" alt="image" src="https://github.com/user-attachments/assets/40332d54-853d-452a-825f-912ff3e82947" />
+
 
 ---
 
@@ -45,6 +53,8 @@ def lambda_handler(event, context):
 4. Choose **Lambda Function** as integration → Select your Lambda.
 5. Deploy the API → Create a stage (e.g., `dev`).
 6. Copy the **Invoke URL** (e.g., `https://abc123.execute-api.ap-south-1.amazonaws.com/dev/hello`).
+7. <img width="1912" height="852" alt="image" src="https://github.com/user-attachments/assets/715c34c4-799a-4506-af32-d0a140928444" />
+
 
 ---
 
