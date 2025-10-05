@@ -46,8 +46,11 @@
 ### *Benefits*
 
 ✅ *Serverless* → No servers to manage, fully managed services.
+
 ✅ *Scalable* → Automatically scales with traffic.
+
 ✅ *Secure* → Cognito ensures only authenticated users can access APIs.
+
 ✅ *Cost-efficient* → Pay only for usage.
 
 
@@ -69,16 +72,16 @@ Let’s say you’re building a *Notes App*:
 [ User (Web/Mobile App) ] 
         │
         ▼
- [ Amazon Cognito ] → issues JWT Token
+[ Amazon Cognito ] → issues JWT Token
         │
         ▼
- [ API Gateway + Cognito Authorizer ]
+[ API Gateway + Cognito Authorizer ]
         │
         ▼
- [ AWS Lambda Function ] → (Business Logic / DB)
+[ AWS Lambda Function ] → (Business Logic / DB)
         │
         ▼
-   [ Response to User ]
+[ Response to User ]
 
 
 
