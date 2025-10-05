@@ -1,8 +1,11 @@
-🚀 Project Explanation – *Serverless API with Authentication*
-
 🔵. Project Name
 
 👉 Serverless API with Authentication using AWS Lambda, API Gateway, and Cognito
+
+
+🚀 Project Explanation – *Serverless API with Authentication*
+
+
 
 ---
 
